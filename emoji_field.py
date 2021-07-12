@@ -529,8 +529,6 @@ e_space = (
     '\U0001F31F',   #glowing star
     '\U0001F320',   #shooting star
     '\U0001F30C',   #milky way
-    '\U0001F386',   #fireworks
-    '\U0001F387'   #sparkler
     '\U0001F30D',   #globe showing Europe-Africa
     '\U0001F30E',   #globe showing Americas
     '\U0001F30F',   #globe showing Asia-Australia
@@ -542,6 +540,11 @@ e_blank = (
 
 e_rainbow = (
     '\U0001F308'   #rainbow
+)
+
+e_fireworks = (
+    '\U0001F386',   #fireworks
+    '\U0001F387',   #sparkler
 )
 
 class Swath:
@@ -602,7 +605,7 @@ class Swath:
             "sky": (e_sky),
             "lab": (e_lab),
             "space": (e_space),
-            "fireworks": (e_space[20:22]),
+            "fireworks": (e_fireworks),
             "dessert desert": (e_treats, e_desert)
         }
         
